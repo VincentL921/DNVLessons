@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/bin/Debug/net7.0/StringManipulation
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/bin/Debug/net7.0/StringManipulation.deps.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/bin/Debug/net7.0/StringManipulation.runtimeconfig.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/bin/Debug/net7.0/StringManipulation.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/bin/Debug/net7.0/StringManipulation.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/refint/StringManipulation.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/StringManipulation.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulation/obj/Debug/net7.0/ref/StringManipulation.dll

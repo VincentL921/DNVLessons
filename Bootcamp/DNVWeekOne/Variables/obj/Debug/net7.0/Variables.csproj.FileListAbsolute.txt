@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/bin/Debug/net7.0/Variables
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/bin/Debug/net7.0/Variables.deps.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/bin/Debug/net7.0/Variables.runtimeconfig.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/bin/Debug/net7.0/Variables.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/bin/Debug/net7.0/Variables.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/refint/Variables.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/Variables.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/Variables/obj/Debug/net7.0/ref/Variables.dll

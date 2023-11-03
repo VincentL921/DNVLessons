@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{83E611D9-8CE9-4796-85ED-D08BCCAEBA5B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StringManipulationHomework/Program.cs">
+    <Files>
+      <File FileName="StringManipulationHomework/Program.cs" Line="16" Column="32" IsPinned="True" />
+      <File FileName="StringManipulation/Program.cs" Line="15" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DNVWeekOne" expanded="True">
+            <Node name="StringManipulationHomework">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Variables" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StringManipulationHomework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Variables PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.StringManipulation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

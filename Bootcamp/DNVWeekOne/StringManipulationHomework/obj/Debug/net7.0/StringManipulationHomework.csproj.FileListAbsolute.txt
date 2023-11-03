@@ -1,0 +1,15 @@
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/bin/Debug/net7.0/StringManipulationHomework
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/bin/Debug/net7.0/StringManipulationHomework.deps.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/bin/Debug/net7.0/StringManipulationHomework.runtimeconfig.json
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/bin/Debug/net7.0/StringManipulationHomework.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/bin/Debug/net7.0/StringManipulationHomework.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.csproj.AssemblyReference.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.AssemblyInfoInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.AssemblyInfo.cs
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.csproj.CoreCompileInputs.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/refint/StringManipulationHomework.dll
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.pdb
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.genruntimeconfig.cache
+/Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/ref/StringManipulationHomework.dll
