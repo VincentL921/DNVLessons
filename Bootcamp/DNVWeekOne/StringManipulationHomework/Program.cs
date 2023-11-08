@@ -8,8 +8,13 @@ var nameWithEagle = new List<string>();
 
 foreach (var item in namesSplit)
 {
-    var cleanIteam = item.Trim().Replace("+", "").Replace("!", "").Replace("@#", "").Replace("#$", "").Replace(")(*", "").Replace("{}", "").Replace("[]", "").Replace(@"\", "").Replace(@"!!!  ", "").Replace("   ", "").Replace("  ", "");
-    //Console.WriteLine(cleanIteam);
+    var cleanIteam = item.Trim().Replace("+", "").Replace("!", "")
+        .Replace("@#", "").Replace("#$", "")
+        .Replace(")(*", "").Replace("{}", "")
+        .Replace("[]", "").Replace(@"\", "")
+        .Replace(@"!!!  ", "").Replace("   ", "")
+        .Replace("  ", "").Trim();
+    Console.WriteLine(cleanIteam);
 
     if (cleanIteam.StartsWith("Ch"))
     {

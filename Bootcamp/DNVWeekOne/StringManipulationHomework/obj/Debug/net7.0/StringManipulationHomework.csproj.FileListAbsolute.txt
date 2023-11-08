@@ -13,3 +13,17 @@
 /Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.pdb
 /Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/StringManipulationHomework.genruntimeconfig.cache
 /Users/vincentlentini/Projects/Bootcamp/DNVWeekOne/StringManipulationHomework/obj/Debug/net7.0/ref/StringManipulationHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\bin\Debug\net7.0\StringManipulationHomework.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\bin\Debug\net7.0\StringManipulationHomework.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\bin\Debug\net7.0\StringManipulationHomework.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\bin\Debug\net7.0\StringManipulationHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\bin\Debug\net7.0\StringManipulationHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\refint\StringManipulationHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\StringManipulationHomework.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\StringManipulationHomework\obj\Debug\net7.0\ref\StringManipulationHomework.dll

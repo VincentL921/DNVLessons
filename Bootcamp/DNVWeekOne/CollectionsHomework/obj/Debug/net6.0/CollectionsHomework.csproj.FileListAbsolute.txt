@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\bin\Debug\net6.0\CollectionsHomework.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\bin\Debug\net6.0\CollectionsHomework.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\bin\Debug\net6.0\CollectionsHomework.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\bin\Debug\net6.0\CollectionsHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\bin\Debug\net6.0\CollectionsHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\refint\CollectionsHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\CollectionsHomework.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekOne\CollectionsHomework\obj\Debug\net6.0\ref\CollectionsHomework.dll
