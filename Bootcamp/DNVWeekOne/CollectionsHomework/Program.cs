@@ -1,4 +1,5 @@
 ﻿using CollectionsHomework;
+using System.ComponentModel.DataAnnotations;
 
 List<People> listOfPeeps = new List<People>();
 var personOne = new People();
@@ -115,7 +116,7 @@ personFourteen.Information.LastName = "Smorthwaite";
 personFourteen.Information.StateAbbrev = "DC";
 personFourteen.Information.Age = 25;
 
-personFifteen.Information.FirstName = "Max";
+personFifteen.Information.FirstName = "Ken";
 personFifteen.Information.LastName = "Braxay";
 personFifteen.Information.StateAbbrev = "TX";
 personFifteen.Information.Age = 62;
@@ -166,9 +167,65 @@ listOfPeeps.Add(personEighteen);
 listOfPeeps.Add(personNineteen);
 listOfPeeps.Add(personTwenty);
 
-
+//Question 1
 var numberOfPpl = listOfPeeps.Count;
 Console.WriteLine(numberOfPpl);
+Console.WriteLine("");
+
+//Question 2
+var avgAge = listOfPeeps.Average(p => p.Information.Age);
+Console.WriteLine(avgAge);
+Console.WriteLine("");
+
+//Question 3
+var minAge = listOfPeeps.Min(p => p.Information.Age);
+var maxAge = listOfPeeps.Max(p => p.Information.Age);
+var ageDifference = maxAge - minAge;
+Console.WriteLine(maxAge);
+Console.WriteLine(minAge);
+Console.WriteLine(ageDifference);
+Console.WriteLine("");
+
+//Question 4
+var olderThanSixFive = listOfPeeps.Any(p => p.Information.Age > 65);
+Console.WriteLine(olderThanSixFive);
+Console.WriteLine("");
+
+//Question 5
+var startsWithB = listOfPeeps.Where(p => p.Information.FirstName.StartsWith("B")).Count();
+Console.WriteLine(startsWithB);
+Console.WriteLine("");
+
+//Question 6
+var firstNameContainsIn = listOfPeeps.Where(p => p.Information.FirstName.Contains("in")).Count();
+var lastNameContainsIn = listOfPeeps.Where(p => p.Information.LastName.Contains("in")).Count();
+var fullNameContainsIn = firstNameContainsIn + lastNameContainsIn;
+Console.WriteLine(firstNameContainsIn);
+Console.WriteLine(lastNameContainsIn);
+Console.WriteLine(fullNameContainsIn);
+Console.WriteLine("");
+
+//Question 7
+var totalsOfKen = listOfPeeps.Where(p => p.Information.FirstName.Contains("Ken")).Count();
+double percentageofKen = (totalsOfKen * 100) / numberOfPpl;
+Console.WriteLine($"{percentageofKen}%");
+Console.WriteLine("");
+
+//Question 8
+var totalsOfCali = listOfPeeps.Where(p => p.Information.StateAbbrev.Contains("CA")).Count();
+double percentageOfCali = (totalsOfCali * 100) / numberOfPpl;
+Console.WriteLine($"{percentageOfCali}%");
+Console.WriteLine("");
+
+//Bonus Question
+var uniqueStates = listOfPeeps.Select(p => p.Information.StateAbbrev).Distinct().ToList();
+
+foreach (var state in uniqueStates)
+{
+    Console.WriteLine(state);
+}
+
+//Printing out each state uniquely one by one. Figuring put how to only print the ones wiht no duplicates
 
 
 //create a class of person
