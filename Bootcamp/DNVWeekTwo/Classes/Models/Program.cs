@@ -125,23 +125,23 @@ davesHouse.HasFoyer = true;
 davesHouse.Yard = new Yard();
 davesHouse.Rooms = new List<Room>();
 
-davesHouse.Address = "1126 83rd Street";
-davesHouse.City = "Brooklyn";
-davesHouse.State = "NY";
+davesHouse.Address = "818 E Morningside Dr NE";
+davesHouse.City = "Atlanta";
+davesHouse.State = "GA";
 davesHouse.Country = "USA";
-davesHouse.ZipCode = 11228;
+davesHouse.ZipCode = 30324;
 davesHouse.Stories = 2;
 davesHouse.Yard.HasFence = true;
 davesHouse.Yard.HasDeck = true;
-davesHouse.Yard.HasGrass = false;
+davesHouse.Yard.HasGrass = true;
 davesHouse.Yard.hasParking = true;
 
 var davesKitchen = new Kitchen();
 davesKitchen.RoomType = "Kitchen";
-davesKitchen.SquareFootage = 100;
+davesKitchen.SquareFootage = 200;
 davesKitchen.HasCloset = true;
-davesKitchen.FlooringType = "Porcelian Tile";
-davesKitchen.HasIsland = true;
+davesKitchen.FlooringType = "Hardwood Flooring";
+davesKitchen.HasIsland = false;
 davesKitchen.HasDishwasher = true;
 davesKitchen.CounterMaterial = "Granite";
 davesKitchen.StoveType = "Gas";
@@ -151,49 +151,49 @@ davesHouse.Rooms.Add(davesKitchen);
 
 var davesMasterBedroom = new Bedroom();
 davesMasterBedroom.RoomType = "Bedroom";
-davesMasterBedroom.SquareFootage = 200;
+davesMasterBedroom.SquareFootage = 400;
 davesMasterBedroom.HasCloset = true;
-davesMasterBedroom.FlooringType = "Porcelian Tile";
+davesMasterBedroom.FlooringType = "Hardwood Flooring";
 davesMasterBedroom.Bedcount = 1;
-davesMasterBedroom.HasDesk = false;
+davesMasterBedroom.HasDesk = true;
 davesMasterBedroom.HasAttachedBathroom = true;
-davesMasterBedroom.WindowCount = 2;
+davesMasterBedroom.WindowCount = 3;
 
 davesHouse.Rooms.Add(davesMasterBedroom);
 
-var davesMasterBedroomTwo = new Bedroom();
-davesMasterBedroomTwo.RoomType = "Bedroom";
-davesMasterBedroomTwo.SquareFootage = 200;
-davesMasterBedroomTwo.HasCloset = true;
-davesMasterBedroomTwo.FlooringType = "Porcelian Tile";
-davesMasterBedroomTwo.Bedcount = 1;
-davesMasterBedroomTwo.HasDesk = false;
-davesMasterBedroomTwo.HasAttachedBathroom = true;
-davesMasterBedroomTwo.WindowCount = 2;
+var davesRegBedroomThree = new Bedroom();
+davesRegBedroomThree.RoomType = "Bedroom";
+davesRegBedroomThree.SquareFootage = 300;
+davesRegBedroomThree.HasCloset = true;
+davesRegBedroomThree.FlooringType = "Hardwood Flooring";
+davesRegBedroomThree.Bedcount = 1;
+davesRegBedroomThree.HasDesk = true;
+davesRegBedroomThree.HasAttachedBathroom = true;
+davesRegBedroomThree.WindowCount = 3;
 
-davesHouse.Rooms.Add(davesMasterBedroomTwo);
+davesHouse.Rooms.Add(davesRegBedroomThree);
 
 var davesRegBedroomOne = new Bedroom();
 davesRegBedroomOne.RoomType = "Bedroom";
 davesRegBedroomOne.SquareFootage = 300;
 davesRegBedroomOne.HasCloset = true;
-davesRegBedroomOne.FlooringType = "Vinyl Flooring";
-davesRegBedroomOne.Bedcount = 2;
+davesRegBedroomOne.FlooringType = "Hardwood Flooring";
+davesRegBedroomOne.Bedcount = 1;
 davesRegBedroomOne.HasDesk = true;
-davesRegBedroomOne.HasAttachedBathroom = false;
-davesRegBedroomOne.WindowCount = 2;
+davesRegBedroomOne.HasAttachedBathroom = true;
+davesRegBedroomOne.WindowCount = 3;
 
 davesHouse.Rooms.Add(davesRegBedroomOne);
 
 var davesRegBedroomTwo = new Bedroom();
 davesRegBedroomTwo.RoomType = "Bedroom";
-davesRegBedroomTwo.SquareFootage = 200;
+davesRegBedroomTwo.SquareFootage = 300;
 davesRegBedroomTwo.HasCloset = true;
-davesRegBedroomTwo.FlooringType = "Vinyl Flooring";
-davesRegBedroomTwo.Bedcount = 2;
+davesRegBedroomTwo.FlooringType = "Hardwood Flooring";
+davesRegBedroomTwo.Bedcount = 1;
 davesRegBedroomTwo.HasDesk = true;
-davesRegBedroomTwo.HasAttachedBathroom = false;
-davesRegBedroomTwo.WindowCount = 1;
+davesRegBedroomTwo.HasAttachedBathroom = true;
+davesRegBedroomTwo.WindowCount = 3;
 
 davesHouse.Rooms.Add(davesRegBedroomTwo);
 
@@ -201,8 +201,8 @@ var davesHomeOffice = new HomeOffice();
 davesHomeOffice.RoomType = "Home Office";
 davesHomeOffice.SquareFootage = 150;
 davesHomeOffice.HasCloset = true;
-davesHomeOffice.FlooringType = "Wood-Look Porcelian Tile";
-davesHomeOffice.WindowCount = 1;
+davesHomeOffice.FlooringType = "Hardwood Flooring";
+davesHomeOffice.WindowCount = 2;
 
 davesHouse.Rooms.Add(davesHomeOffice);
 
@@ -210,8 +210,8 @@ var davesLivingRoom = new LivingRoom();
 davesLivingRoom.RoomType = "Living Room";
 davesLivingRoom.SquareFootage = 500;
 davesLivingRoom.HasCloset = false;
-davesLivingRoom.FlooringType = "Wood-Look Porcelian Tile";
-davesLivingRoom.WindowCount = 3;
+davesLivingRoom.FlooringType = "Hardwood Flooring";
+davesLivingRoom.WindowCount = 5;
 
 davesHouse.Rooms.Add(davesLivingRoom);
 
@@ -219,7 +219,7 @@ var davesBasement = new Basement();
 davesBasement.RoomType = "Basement";
 davesBasement.SquareFootage = 2000;
 davesBasement.HasCloset = true;
-davesBasement.FlooringType = "Porcelain Tile";
+davesBasement.FlooringType = "Carpet";
 
 davesHouse.Rooms.Add(davesBasement);
 
@@ -227,10 +227,10 @@ var davesDiningRoom = new DiningRoom();
 davesDiningRoom.RoomType = "Dining Room";
 davesDiningRoom.SquareFootage = 300;
 davesDiningRoom.HasCloset = false;
-davesDiningRoom.FlooringType = "Wood-Look Porceilain Tile";
+davesDiningRoom.FlooringType = "Hardwood Flooring";
 davesDiningRoom.HasBuffet = true;
 davesDiningRoom.HasFrenchDoors = true;
-davesDiningRoom.TableOccupancyCount = 8;
+davesDiningRoom.TableOccupancyCount = 5;
 
 davesHouse.Rooms.Add(davesDiningRoom);
 #endregion
@@ -300,6 +300,69 @@ Console.WriteLine("");
 Console.WriteLine($"- {basement.RoomType}");
 Console.WriteLine($"Square Footage: {basement.SquareFootage}");
 Console.WriteLine($"Flooring Type: {basement.FlooringType}");
+#endregion
+Console.WriteLine("");
+#region davesHouse Listing
+Console.WriteLine("House Listing:");
+Console.WriteLine("");
+
+Console.WriteLine($"{davesHouse.Address}");
+Console.WriteLine($"{davesHouse.City},{davesHouse.State} {davesHouse.ZipCode} - {davesHouse.Country}");
+Console.WriteLine("");
+var davesTotalSquareFootage = davesHouse.Rooms.Sum(r => r.SquareFootage);
+Console.WriteLine($"Total Square Footage: {davesTotalSquareFootage}");
+var davesTotalRooms = davesHouse.Rooms.Count();
+Console.WriteLine($"Total rooms: {davesTotalRooms}");
+
+Console.WriteLine("");
+Console.WriteLine("Facts & Features:");
+
+Console.WriteLine("Interior Features");
+var davesBedroomCount = davesHouse.Rooms.Count(r => r.RoomType.Contains("Bedroom"));
+Console.WriteLine($"- Bedrooms");
+Console.WriteLine($"Bedrooms: {davesBedroomCount}");
+//Need to go back and get the sum of beds - VL 11/11/2023
+Console.WriteLine("");
+Console.WriteLine($"- {davesKitchen.RoomType}");
+Console.WriteLine("Features:");
+if (davesKitchen.HasIsland == true && davesKitchen.HasDishwasher == true)
+{
+    Console.WriteLine($"Kitchen Island");
+    Console.WriteLine($"Dishwasher");
+}
+else if ((davesKitchen.HasIsland == true) && (davesKitchen.HasDishwasher == false))
+{
+    Console.WriteLine($"Kitchen Island");
+}
+else
+{
+    Console.WriteLine($"Dishwasher");
+}
+Console.WriteLine("");
+Console.WriteLine($"- {davesDiningRoom.RoomType}");
+Console.WriteLine($"Table Occupancy: {davesDiningRoom.TableOccupancyCount}");
+if (davesDiningRoom.HasFrenchDoors == true && davesDiningRoom.HasBuffet == true)
+{
+    Console.WriteLine($"Buffet Section");
+    Console.WriteLine($"French Doors Entry");
+}
+else if ((davesDiningRoom.HasFrenchDoors == true) && (davesDiningRoom.HasBuffet == false))
+{
+    Console.WriteLine($"Buffet Section");
+}
+else
+{
+    Console.WriteLine($"French Doors Entry");
+}
+Console.WriteLine("");
+Console.WriteLine($"- {davesLivingRoom.RoomType}");
+Console.WriteLine($"Square Footage: {davesLivingRoom.SquareFootage}");
+Console.WriteLine($"Window Count: {davesLivingRoom.WindowCount}");
+Console.WriteLine($"Flooring Type: {davesLivingRoom.FlooringType}");
+Console.WriteLine("");
+Console.WriteLine($"- {davesBasement.RoomType}");
+Console.WriteLine($"Square Footage: {davesBasement.SquareFootage}");
+Console.WriteLine($"Flooring Type: {davesBasement.FlooringType}");
 #endregion
 
 
