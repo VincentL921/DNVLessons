@@ -7,8 +7,9 @@ var davesHouse = new House();
 
 #region vinsHouse info
 vinsHouse.HasFoyer = true;
-vinsHouse.Yard = new Yard();
-vinsHouse.Rooms = new List<Room>();
+//moved to House constructor
+//vinsHouse.Yard = new Yard();
+//vinsHouse.Rooms = new List<Room>();
 
 vinsHouse.Address = "1126 83rd Street";
 vinsHouse.City = "Brooklyn";
@@ -260,7 +261,9 @@ Console.WriteLine($"- Bedrooms");
 Console.WriteLine($"Bedrooms: {bedroomCount}");
 //Need to go back and get the sum of beds - VL 11/11/2023
 Console.WriteLine("");
-Console.WriteLine($"- {kitchen.RoomType}");
+var kitchenNameDisplay = kitchen.RoomType.FirstOrDefault();
+Console.WriteLine($"- {kitchenNameDisplay}");
+//access the room type by using .FirstOrDefault(), by .Rooms - HW for Thursday - fix other variables too
 Console.WriteLine("Features:");
 if (kitchen.HasIsland == true && kitchen.HasDishwasher == true)
 {
@@ -271,6 +274,7 @@ else if ((kitchen.HasIsland == true) && (kitchen.HasDishwasher == false))
 {
     Console.WriteLine($"Kitchen Island");
 }
+//add second else if for other possibility
 else
 {
     Console.WriteLine($"Dishwasher");
@@ -365,7 +369,7 @@ Console.WriteLine($"Square Footage: {davesBasement.SquareFootage}");
 Console.WriteLine($"Flooring Type: {davesBasement.FlooringType}");
 #endregion
 
-
+#region last week's HW 11/11/23
 //For code
 //Model this house object after the house I grew up in
 //Master bedrooms, number of other bedrooms
@@ -380,3 +384,18 @@ Console.WriteLine($"Flooring Type: {davesBasement.FlooringType}");
 //What's the difference between a constructor & method?
 //What's the difference between inheriting from a class & inheriting from an interface?
 //Perfereably in my own words for both - academic terms help too
+#endregion
+
+//for Thursday
+//Move all of the Console.WriteLines into a self-created DisplayListing() method for the House class
+//If have time
+//F thats delicious is the project name
+//Set up a class called oven, and a class called food
+//for food at bare min - time to cook property, food name property, food type property - 3 most important properties
+//create a few beef, chicken, fish & vegetable food type variables
+//on oven class - make all the methods return void right now
+//oven methods - add() to pass in one food object in add, addRange() to pass in a collection of food items, getCookTime() method, & method of getTimeRemaining(), & method setTimeElapsed()
+
+//research for thursday
+//look up method overloading
+//twll dave what it is & what its benefits are
