@@ -240,134 +240,27 @@ davesHouse.Rooms.Add(davesDiningRoom);
 //First changed the house as a list and made my house as an object in the list,
 //but changed it back to original way to get the lamba counts.
 
-#region vinsHouse Listing
-Console.WriteLine("House Listing:");
-Console.WriteLine("");
-
-Console.WriteLine($"{vinsHouse.Address}");
-Console.WriteLine($"{vinsHouse.City},{vinsHouse.State} {vinsHouse.ZipCode} - {vinsHouse.Country}");
-Console.WriteLine("");
-var totalSquareFootage = vinsHouse.Rooms.Sum(r => r.SquareFootage);
-Console.WriteLine($"Total Square Footage: {totalSquareFootage}");
-var totalRooms = vinsHouse.Rooms.Count();
-Console.WriteLine($"Total rooms: {totalRooms}");
-
-Console.WriteLine("");
-Console.WriteLine("Facts & Features:");
-
-Console.WriteLine("Interior Features");
-var bedroomCount = vinsHouse.Rooms.Count(r => r.RoomType.Contains("Bedroom"));
-Console.WriteLine($"- Bedrooms");
-Console.WriteLine($"Bedrooms: {bedroomCount}");
-//Need to go back and get the sum of beds - VL 11/11/2023
-Console.WriteLine("");
-var kitchenNameDisplay = kitchen.RoomType.FirstOrDefault();
-Console.WriteLine($"- {kitchenNameDisplay}");
-//access the room type by using .FirstOrDefault(), by .Rooms - HW for Thursday - fix other variables too
-Console.WriteLine("Features:");
-if (kitchen.HasIsland == true && kitchen.HasDishwasher == true)
-{
-    Console.WriteLine($"Kitchen Island");
-    Console.WriteLine($"Dishwasher");
-}
-else if ((kitchen.HasIsland == true) && (kitchen.HasDishwasher == false))
-{
-    Console.WriteLine($"Kitchen Island");
-}
-//add second else if for other possibility
-else
-{
-    Console.WriteLine($"Dishwasher");
-}
-Console.WriteLine("");
-Console.WriteLine($"- {diningRooms.RoomType}");
-Console.WriteLine($"Table Occupancy: {diningRooms.TableOccupancyCount}");
-if (diningRooms.HasFrenchDoors == true && diningRooms.HasBuffet == true)
-{
-    Console.WriteLine($"Buffet Section");
-    Console.WriteLine($"French Doors Entry");
-}
-else if ((diningRooms.HasFrenchDoors == true) && (diningRooms.HasBuffet == false))
-{
-    Console.WriteLine($"Buffet Section");
-}
-else
-{
-    Console.WriteLine($"French Doors Entry");
-}
-Console.WriteLine("");
-Console.WriteLine($"- {livingRoom.RoomType}");
-Console.WriteLine($"Square Footage: {livingRoom.SquareFootage}");
-Console.WriteLine($"Window Count: {livingRoom.WindowCount}");
-Console.WriteLine($"Flooring Type: {livingRoom.FlooringType}");
-Console.WriteLine("");
-Console.WriteLine($"- {basement.RoomType}");
-Console.WriteLine($"Square Footage: {basement.SquareFootage}");
-Console.WriteLine($"Flooring Type: {basement.FlooringType}");
+#region davesHouse w/ methods
+davesHouse.DisplayGenHouseListInfo();
+davesKitchen.DisplayKitchenInfo();
+davesDiningRoom.DisplayDiningRoomInfo();
+davesLivingRoom.DisplayLivingRoomInfo();
+davesBasement.DisplayBasementInfo();
 #endregion
-Console.WriteLine("");
-#region davesHouse Listing
-Console.WriteLine("House Listing:");
-Console.WriteLine("");
-
-Console.WriteLine($"{davesHouse.Address}");
-Console.WriteLine($"{davesHouse.City},{davesHouse.State} {davesHouse.ZipCode} - {davesHouse.Country}");
-Console.WriteLine("");
-var davesTotalSquareFootage = davesHouse.Rooms.Sum(r => r.SquareFootage);
-Console.WriteLine($"Total Square Footage: {davesTotalSquareFootage}");
-var davesTotalRooms = davesHouse.Rooms.Count();
-Console.WriteLine($"Total rooms: {davesTotalRooms}");
 
 Console.WriteLine("");
-Console.WriteLine("Facts & Features:");
+Console.WriteLine("");
+Console.WriteLine("");
 
-Console.WriteLine("Interior Features");
-var davesBedroomCount = davesHouse.Rooms.Count(r => r.RoomType.Contains("Bedroom"));
-Console.WriteLine($"- Bedrooms");
-Console.WriteLine($"Bedrooms: {davesBedroomCount}");
-//Need to go back and get the sum of beds - VL 11/11/2023
-Console.WriteLine("");
-Console.WriteLine($"- {davesKitchen.RoomType}");
-Console.WriteLine("Features:");
-if (davesKitchen.HasIsland == true && davesKitchen.HasDishwasher == true)
-{
-    Console.WriteLine($"Kitchen Island");
-    Console.WriteLine($"Dishwasher");
-}
-else if ((davesKitchen.HasIsland == true) && (davesKitchen.HasDishwasher == false))
-{
-    Console.WriteLine($"Kitchen Island");
-}
-else
-{
-    Console.WriteLine($"Dishwasher");
-}
-Console.WriteLine("");
-Console.WriteLine($"- {davesDiningRoom.RoomType}");
-Console.WriteLine($"Table Occupancy: {davesDiningRoom.TableOccupancyCount}");
-if (davesDiningRoom.HasFrenchDoors == true && davesDiningRoom.HasBuffet == true)
-{
-    Console.WriteLine($"Buffet Section");
-    Console.WriteLine($"French Doors Entry");
-}
-else if ((davesDiningRoom.HasFrenchDoors == true) && (davesDiningRoom.HasBuffet == false))
-{
-    Console.WriteLine($"Buffet Section");
-}
-else
-{
-    Console.WriteLine($"French Doors Entry");
-}
-Console.WriteLine("");
-Console.WriteLine($"- {davesLivingRoom.RoomType}");
-Console.WriteLine($"Square Footage: {davesLivingRoom.SquareFootage}");
-Console.WriteLine($"Window Count: {davesLivingRoom.WindowCount}");
-Console.WriteLine($"Flooring Type: {davesLivingRoom.FlooringType}");
-Console.WriteLine("");
-Console.WriteLine($"- {davesBasement.RoomType}");
-Console.WriteLine($"Square Footage: {davesBasement.SquareFootage}");
-Console.WriteLine($"Flooring Type: {davesBasement.FlooringType}");
+#region vinsHouse w/ methods
+vinsHouse.DisplayGenHouseListInfo();
+kitchen.DisplayKitchenInfo();
+diningRooms.DisplayDiningRoomInfo();
+livingRoom.DisplayLivingRoomInfo();
+basement.DisplayBasementInfo();
 #endregion
+
+
 
 #region last week's HW 11/11/23
 //For code

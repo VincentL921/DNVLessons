@@ -11,5 +11,14 @@ namespace Classes
     {
         public int WindowCount { get; set; }
 
+        public void DisplayLivingRoomInfo()
+        {
+            var displayLivingRoom = this.RoomType;
+            Console.WriteLine($"- {displayLivingRoom}");
+            Console.WriteLine($"Square Footage: {this.SquareFootage}");
+            Console.WriteLine($"Window Count: {this.WindowCount}");
+            Console.WriteLine($"Flooring Type: {this.FlooringType}");
+            Console.WriteLine("");
+        }
     }
 }

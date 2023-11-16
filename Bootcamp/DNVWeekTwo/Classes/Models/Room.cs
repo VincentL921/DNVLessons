@@ -13,5 +13,6 @@ namespace Classes.Models
         public bool HasCloset { get; set; }
         public string FlooringType { get; set; }
 
+
     }
 }
