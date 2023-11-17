@@ -291,4 +291,4 @@ basement.DisplayBasementInfo();
 
 //research for thursday
 //look up method overloading
-//twll dave what it is & what its benefits are
+//tell dave what it is & what its benefits are
