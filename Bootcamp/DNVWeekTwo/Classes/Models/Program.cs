@@ -236,16 +236,9 @@ davesDiningRoom.TableOccupancyCount = 5;
 davesHouse.Rooms.Add(davesDiningRoom);
 #endregion
 
-//house.Add(vinsHouse);
-//First changed the house as a list and made my house as an object in the list,
-//but changed it back to original way to get the lamba counts.
 
 #region davesHouse w/ methods
-davesHouse.DisplayGenHouseListInfo();
-davesKitchen.DisplayKitchenInfo();
-davesDiningRoom.DisplayDiningRoomInfo();
-davesLivingRoom.DisplayLivingRoomInfo();
-davesBasement.DisplayBasementInfo();
+davesHouse.DisplayListing();
 #endregion
 
 Console.WriteLine("");
@@ -253,11 +246,7 @@ Console.WriteLine("");
 Console.WriteLine("");
 
 #region vinsHouse w/ methods
-vinsHouse.DisplayGenHouseListInfo();
-kitchen.DisplayKitchenInfo();
-diningRooms.DisplayDiningRoomInfo();
-livingRoom.DisplayLivingRoomInfo();
-basement.DisplayBasementInfo();
+vinsHouse.DisplayListing();
 #endregion
 
 

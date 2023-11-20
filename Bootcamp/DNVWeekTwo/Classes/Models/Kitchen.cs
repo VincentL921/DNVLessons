@@ -14,29 +14,5 @@ namespace Classes.Models
         public string StoveType { get; set; }
         public bool HasDishwasher { get; set; }
 
-        public void DisplayKitchenInfo()
-        {
-            var kitchenNameDisplay = this.RoomType;
-            Console.WriteLine($"- {kitchenNameDisplay}");
-            Console.WriteLine("Features:");
-            if (this.HasIsland == true && this.HasDishwasher == true)
-            {
-                Console.WriteLine($"Kitchen Island");
-                Console.WriteLine($"Dishwasher");
-            }
-            else if ((this.HasIsland == true) && (this.HasDishwasher == false))
-            {
-                Console.WriteLine($"Kitchen Island");
-            }
-            else if ((this.HasIsland == false) && (this.HasDishwasher == true))
-            {
-                Console.WriteLine($"Dishwasher");
-            }
-            else
-            {
-                Console.WriteLine($"");
-            }
-            Console.WriteLine("");
-        }
     }
 }

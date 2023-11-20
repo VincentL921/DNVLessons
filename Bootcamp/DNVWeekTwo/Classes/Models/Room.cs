@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes.Models
 {
-    public class Room
+    public class Room 
     {
         public string RoomType { get; set; }
         public int SquareFootage { get; set; }
@@ -14,5 +14,5 @@ namespace Classes.Models
         public string FlooringType { get; set; }
 
 
-    }
+        }
 }

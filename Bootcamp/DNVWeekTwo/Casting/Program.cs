@@ -69,11 +69,11 @@ cars.Add(camry);
 
 foreach (var item in cars)
 {
-    Console.WriteLine(item);
+    //Console.WriteLine(item);
 
     switch (item.Make)
     {
-        case "Toyota" :
+        case "Toyota":
             var toyota = (Toyota)item;
             Console.WriteLine($"Year: {item.Year}, Make: {item.Make}, Model: {camry.Model} Is TRD: {item.IsCoupe}");
             break;
