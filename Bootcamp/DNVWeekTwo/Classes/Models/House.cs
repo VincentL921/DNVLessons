@@ -138,6 +138,7 @@ namespace Classes.Models
                         var basementPrivate = (Basement)item;
                         DisplayBasement(basementPrivate);
                         break;
+
                 }
             }
         }
