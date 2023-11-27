@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\bin\Debug\net6.0\FoodShowHomework.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\bin\Debug\net6.0\FoodShowHomework.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\bin\Debug\net6.0\FoodShowHomework.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\bin\Debug\net6.0\FoodShowHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\bin\Debug\net6.0\FoodShowHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\refint\FoodShowHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\FoodShowHomework.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\FoodShowHomework\obj\Debug\net6.0\ref\FoodShowHomework.dll
