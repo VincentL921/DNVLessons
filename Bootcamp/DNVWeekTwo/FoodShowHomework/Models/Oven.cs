@@ -8,17 +8,16 @@ namespace FoodShowHomework.Models
 {
     public class Oven
     {
-        public List<Oven> OvenList = new List<Oven>();
 
-        public void GetTimeRemaining()
+        public void GetCookTime(Food food)
+        {
+            
+        }
+        public void SetTimeElapsed(Food food) 
         {
 
         }
-        public void GetCookTime()
-        {
-
-        }
-        public void SetTimeElapsed() 
+        public void GetTimeRemaining(Food food)
         {
 
         }

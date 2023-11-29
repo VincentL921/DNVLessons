@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata;
 
 var foodItems = new List<Food>();
-var oven = new List<Oven>();
+var oven = new Oven();
 
 var chickenParm = new Food();
 var friedChicken = new Food();
