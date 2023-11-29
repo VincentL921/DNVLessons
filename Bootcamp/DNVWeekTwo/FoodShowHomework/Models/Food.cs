@@ -14,7 +14,6 @@ namespace FoodShowHomework.Models
         public string FoodName { get; set; }
         public string FoodType { get; set; }
         public int CookTimeMin { get; set; }
-        public string ElapsedCookTime {  get; set; }
         public List <Food> FoodItems { get; set; }
 
     }

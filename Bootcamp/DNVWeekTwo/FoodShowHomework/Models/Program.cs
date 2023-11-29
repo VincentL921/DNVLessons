@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata;
 
 var foodItems = new List<Food>();
+var oven = new List<Oven>();
 
 var chickenParm = new Food();
 var friedChicken = new Food();
@@ -23,62 +24,50 @@ var stuffedPeppers = new Food();
 chickenParm.FoodName = "Chicken Parm";
 chickenParm.FoodType = "Chicken";
 chickenParm.CookTimeMin = 45;
-chickenParm.ElapsedCookTime = Console.ReadLine();
 
 friedChicken.FoodName = "Nashville Fried Chicken";
 friedChicken.FoodType = "Chicken";
 friedChicken.CookTimeMin = 44;
-friedChicken.ElapsedCookTime = Console.ReadLine();
 
 roastChicken.FoodName = "Whole Roast Chicken";
 roastChicken.FoodType = "Chicken";
 roastChicken.CookTimeMin = 105;
-roastChicken.ElapsedCookTime = Console.ReadLine();
 
 cheeseBurger.FoodName = "Cheese Burger";
 cheeseBurger.FoodType = "Beef";
 cheeseBurger.CookTimeMin = 20;
-roastChicken.ElapsedCookTime = Console.ReadLine();
 
 filetMignon.FoodName = "Filet Mignon";
 filetMignon.FoodType = "Beef";
 filetMignon.CookTimeMin = 20;
-filetMignon.ElapsedCookTime = Console.ReadLine();
 
 steakBurrito.FoodName = "Steak Burrito";
 steakBurrito.FoodType = "Beef";
 steakBurrito.CookTimeMin = 30;
-steakBurrito.ElapsedCookTime = Console.ReadLine();
 
 fishAndChips.FoodName = "Fish And Chips";
 fishAndChips.FoodType = "Fish";
 fishAndChips.CookTimeMin = 65;
-fishAndChips.ElapsedCookTime = Console.ReadLine();
 
 bakedSalmon.FoodName = "Baked Salmon";
 bakedSalmon.FoodType = "Fish";
 bakedSalmon.CookTimeMin = 15;
-bakedSalmon.ElapsedCookTime = Console.ReadLine();
 
 friedCalamari.FoodName = "Fried Calamari";
 friedCalamari.FoodType = "Fish";
 friedCalamari.CookTimeMin = 25;
-friedCalamari.ElapsedCookTime = Console.ReadLine();
 
 cobbSalad.FoodName = "Cobb Salad";
 cobbSalad.FoodType = "Vegetables";
 cobbSalad.CookTimeMin = 40;
-cobbSalad.ElapsedCookTime = Console.ReadLine();
 
 ratatouille.FoodName = "Ratatouille";
 ratatouille.FoodType = "Vegatables";
 ratatouille.CookTimeMin = 90;
-ratatouille.ElapsedCookTime = Console.ReadLine();
 
 stuffedPeppers.FoodName = "Stuffed Peppers";
 stuffedPeppers.FoodType = "Vegatables";
 stuffedPeppers.CookTimeMin = 95;
-stuffedPeppers.ElapsedCookTime = Console.ReadLine();
 
 foodItems.Add(chickenParm);
 foodItems.Add(friedChicken);
@@ -93,7 +82,6 @@ foodItems.Add(cobbSalad);
 foodItems.Add(ratatouille);
 foodItems.Add(stuffedPeppers);
 
-var timeElapsed = Console.ReadLine();
 
 
 //F thats delicious is the project name

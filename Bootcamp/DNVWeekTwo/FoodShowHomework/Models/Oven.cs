@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace FoodShowHomework.Models
 {
-    public class Oven : Food
+    public class Oven
     {
-        public void GetCookTime()
-        {
-            Console.WriteLine(this.CookTimeMin);
-        }
-
-        public void SetTimeElapsed()
-        {
-            Console.WriteLine(this.ElapsedCookTime);
-        }
+        public List<Oven> OvenList = new List<Oven>();
 
         public void GetTimeRemaining()
         {
-            var parsedElapsedTime = int.TryParse(this.ElapsedCookTime, out int goodElapsedTime);
-            var timeRemaining = this.CookTimeMin - goodElapsedTime;
-            Console.WriteLine(timeRemaining);
+
+        }
+        public void GetCookTime()
+        {
+
+        }
+        public void SetTimeElapsed() 
+        {
+
         }
     }
 }
