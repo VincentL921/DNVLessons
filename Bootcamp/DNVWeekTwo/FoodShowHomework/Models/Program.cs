@@ -8,7 +8,7 @@ using System.Reflection.Metadata;
 //  you wont always need a collection of the main class when we do stuff like this so don't think its a requirement 100% of the time.
 
 var foodItems = new List<Food>();
-var oven = new List<Oven>();
+var oven = new Oven();
 
 var chickenParm = new Food();
 var friedChicken = new Food();

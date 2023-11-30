@@ -12,6 +12,7 @@ namespace FoodShowHomework.Models
     //  With that said, also lay out a list / steps of what it is you are needing to do as a checklist and then work your way through that.
     public class Oven
     {
+<<<<<<< HEAD
         // make this private, we don't want to access it from outside of the class and bypass the code we are going to put in place here
         //  to control how items are being added to the oven.
         //
@@ -74,14 +75,18 @@ namespace FoodShowHomework.Models
         // Won't go into these because im thinking if you get the above going, these may fall into place, if not let me know and we can discuss.
         // but all of these would need to return a relevant data type (ex: int, double...etc.).
         public void GetTimeRemaining()
+=======
+
+        public void GetCookTime(Food food)
+>>>>>>> 4f418df01c9b2fbd08f15678cba43c4e20670323
+        {
+            
+        }
+        public void SetTimeElapsed(Food food) 
         {
 
         }
-        public void GetCookTime()
-        {
-
-        }
-        public void SetTimeElapsed() 
+        public void GetTimeRemaining(Food food)
         {
 
         }
