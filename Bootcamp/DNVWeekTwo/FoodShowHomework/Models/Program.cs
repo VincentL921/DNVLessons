@@ -2,6 +2,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata;
 
+// Clean this up to avoid confusion, basically...start over. If you leave this code here
+//  your going to look at it thinking you need it and you don't.
+// You don't need any collections outside of the oven class so no need for a collection of ovens.
+//  you wont always need a collection of the main class when we do stuff like this so don't think its a requirement 100% of the time.
+
 var foodItems = new List<Food>();
 var oven = new List<Oven>();
 
