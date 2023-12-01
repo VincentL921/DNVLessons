@@ -12,34 +12,42 @@ namespace FoodShowHomework.Models
     //  With that said, also lay out a list / steps of what it is you are needing to do as a checklist and then work your way through that.
     public class Oven
     {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         // make this private, we don't want to access it from outside of the class and bypass the code we are going to put in place here
-        //  to control how items are being added to the oven.
+        // to control how items are being added to the oven.
         //
         //  so this should look something like
         //  private List<Food> _foodInOven = new List<Food>();
         //
         //  Same deal in food, an oven wouldn't have a collection of itself. When you write something like this, read through it and talk through
-        // out loud what the properties are.
+        //  out loud what the properties are.
         //  "Oven class with a property of OvenList which is a collection of class Oven" - that doesn't make sense. The only time you'd have a collection
-        //      of ovens is like a home depot or lowes or somewhere that sells ovens, know what i mean?
+        //   of ovens is like a home depot or lowes or somewhere that sells ovens, know what i mean?
         //  
-        public List<Oven> OvenList = new List<Oven>();
+        private List<Food> _foodInOven = new List<Food>();
+        public void Add(Food foodItem)
+        {
+           _foodInOven.Add(foodItem);
+        }
+        public void Add(List<Food> foodItems)
+        {
+            _foodInOven.AddRange(foodItems);
+        }
 
-
+        #region Daves Notes
         // So first thing to do is tackle this one method at a time. If you can't add items to the foodInOven collection, none of the rest of these methods
         //  matter because you won't be able to get proper results from them, so ignore all other methods until you get add done.
 
         //The add method is where we are going to utilize method overloading - if not clear, do research on this first before tackling these items.
         //  so method overloading example.
-        //  public void Add(Food newItem)
-        //  public void Add(List<Food> newItems)
+        //public void Add(Food newItem)
+        //public void Add(List<Food> newItems)
         //  
         //  See how its the same method name but different method signatures? (signatures being different itemse being passed into the method itself).
         //  For example if you tried to do
         //
-        //  public void Add(Food newItem)
-        //  public void Add(Food yourMother)
+        //public void Add(Food newItem)
+        //public void Add(Food yourMother)
         //  public void Add(List<Food> newItems)
         //
         //  This wouldn't compile because the first two methods accept 1 paramter which is a Food object, it doesn't matter that the first ones variable
@@ -47,7 +55,7 @@ namespace FoodShowHomework.Models
         //      because of that, this wouldn't compile since the compiler wouldn't be able to know which Add method you were using if you were passing
         //      in a single object of food
         //      ex:
-        //          var oven = new Ove();
+        //          var oven = new Oven();
         //          var yourFace = new Food();
         //          oven.Add(yourFace);
         //
@@ -74,19 +82,16 @@ namespace FoodShowHomework.Models
 
         // Won't go into these because im thinking if you get the above going, these may fall into place, if not let me know and we can discuss.
         // but all of these would need to return a relevant data type (ex: int, double...etc.).
-        public void GetTimeRemaining()
-=======
-
-        public void GetCookTime(Food food)
->>>>>>> 4f418df01c9b2fbd08f15678cba43c4e20670323
+        #endregion
+        public void GetCookTime(Food foodItems)
         {
-            
+            var currentCookTime = 0;
         }
-        public void SetTimeElapsed(Food food) 
+        public void SetTimeElapsed(Food foodItems) 
         {
 
         }
-        public void GetTimeRemaining(Food food)
+        public void GetTimeRemaining(Food foodItems)
         {
 
         }

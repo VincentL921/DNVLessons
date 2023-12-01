@@ -8,7 +8,6 @@ using System.Reflection.Metadata;
 //  you wont always need a collection of the main class when we do stuff like this so don't think its a requirement 100% of the time.
 
 var foodItems = new List<Food>();
-var oven = new Oven();
 
 var chickenParm = new Food();
 var friedChicken = new Food();
@@ -73,20 +72,6 @@ ratatouille.CookTimeMin = 90;
 stuffedPeppers.FoodName = "Stuffed Peppers";
 stuffedPeppers.FoodType = "Vegatables";
 stuffedPeppers.CookTimeMin = 95;
-
-foodItems.Add(chickenParm);
-foodItems.Add(friedChicken);
-foodItems.Add(roastChicken);
-foodItems.Add(cheeseBurger);
-foodItems.Add(filetMignon);
-foodItems.Add(steakBurrito);
-foodItems.Add(fishAndChips);
-foodItems.Add(bakedSalmon);
-foodItems.Add(friedCalamari);
-foodItems.Add(cobbSalad);
-foodItems.Add(ratatouille);
-foodItems.Add(stuffedPeppers);
-
 
 
 //F thats delicious is the project name
