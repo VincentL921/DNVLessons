@@ -25,6 +25,7 @@ namespace FoodShowHomework.Models
         //   of ovens is like a home depot or lowes or somewhere that sells ovens, know what i mean?
         //  
         private List<Food> _foodInOven = new List<Food>();
+        private int _timeElapsed = 0;
         public void Add(Food foodItem)
         {
            _foodInOven.Add(foodItem);
@@ -83,17 +84,26 @@ namespace FoodShowHomework.Models
         // Won't go into these because im thinking if you get the above going, these may fall into place, if not let me know and we can discuss.
         // but all of these would need to return a relevant data type (ex: int, double...etc.).
         #endregion
-        public void GetCookTime(Food foodItems)
+        public int GetCookTime()
         {
-            var currentCookTime = 0;
+            return _foodInOven.Sum(m => m.CookTimeMin);
         }
-        public void SetTimeElapsed(Food foodItems) 
+        public void SetTimeElapsed(int numOfMinutes) 
         {
-
+            _timeElapsed = _timeElapsed + numOfMinutes;
         }
-        public void GetTimeRemaining(Food foodItems)
+        public int GetTimeRemaining()
         {
-
+            return GetCookTime() - GetTimeElapsed();
+          
+        }
+        public int GetTimeElapsed()
+        {
+            return _timeElapsed;
+        }
+        public int AvgCookTime()
+        {
+            return GetCookTime() / _foodInOven.Count;
         }
     }
 }

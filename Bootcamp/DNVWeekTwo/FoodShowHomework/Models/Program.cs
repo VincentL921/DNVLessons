@@ -73,6 +73,11 @@ stuffedPeppers.FoodName = "Stuffed Peppers";
 stuffedPeppers.FoodType = "Vegatables";
 stuffedPeppers.CookTimeMin = 95;
 
+var oven = new Oven();
+oven.Add(foodItems);
+
+var average = oven.AvgCookTime();
+
 
 //F thats delicious is the project name
 //Set up a class called oven, and a class called food
@@ -80,3 +85,15 @@ stuffedPeppers.CookTimeMin = 95;
 //create a few beef, chicken, fish & vegetable food type variables
 //on oven class - make all the methods return void right now
 //oven methods - add() to pass in one food object in add() with method overloading to pass in a collection of food items, getCookTime() method, & method of getTimeRemaining(), & method setTimeElapsed()
+
+
+//For Monday
+//class called Order(), class called Products()
+//caveat - because we are dealing with money - these will be doubles, not ints
+//Products - department, sales price, unit costs, 
+//Order - two methods - one to add a single product, one to add a collection of products
+//methods to get total cost & then get average cost
+//methods to get totlal price & average price
+//there's a difference in price & cost
+//writing another method for making a payment, we need to track total amount paid
+//writing another to get total remaining balance
