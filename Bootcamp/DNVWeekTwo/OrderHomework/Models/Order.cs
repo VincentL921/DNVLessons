@@ -23,10 +23,9 @@ namespace OrderHomework.Models
         {
             return _productsOrdered.Sum(m => m.Cost);
         }
-        public double GetTotalCost(string playstattionFive, string samsungTV, string adidasTracksuit, string nikeHoodie,
-            string airForceOnes, string nikeDunks, string kitchenAidMixer, string vitamixBlender )
+        public double GetTotalCost(string department)
         {
-            return _productsOrdered.Sum(m => m.Cost);
+            return _productsOrdered.Where(m => m.Department.Contains(department)).Sum(m => m.Cost);
         }
         public double GetAverageCost()
         {
