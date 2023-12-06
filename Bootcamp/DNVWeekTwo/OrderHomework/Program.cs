@@ -63,6 +63,7 @@ var average = order.GetTotalCost();
 
 
 
+
 //class Order
 //    list of products in which we use methods to add to the order as a private variable.
 //    private variable for currentBalanceOwed -

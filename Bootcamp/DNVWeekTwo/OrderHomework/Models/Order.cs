@@ -43,7 +43,7 @@ namespace OrderHomework.Models
         {
             _pricePaid = _pricePaid + pricingNumber;
         }
-        public double GetRemainingBalance () 
+        public double GetRemainingBalance()
         {
             return GetAveragePrice() - _pricePaid;
         }
@@ -59,3 +59,9 @@ namespace OrderHomework.Models
 //    * get average price
 //    * making payment -> we need to track total amount paid so use private variable above to do so and add to itself.
 //    * get remaining balance
+
+//*create a display method that displays everything like an invoice
+//so loop through all the products and display the price/cost of each item -
+//format it nicely so its readable then  have a footer of the output to show total cost, total price, average price, remaining balance...etc
+//so a void Display() method
+
