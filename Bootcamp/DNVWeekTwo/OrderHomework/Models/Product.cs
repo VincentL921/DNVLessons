@@ -13,6 +13,7 @@ namespace OrderHomework.Models
         public string Department { get; set; }
         public double Price { get; set; }
         public double Cost { get; set; }
+        public List<Product> Products { get; set; }
 
 
         //trying to display the invoice while being able to show each product seperately
@@ -41,38 +42,23 @@ namespace OrderHomework.Models
             Console.WriteLine($"- {displayvitamixBlender}");
             Console.WriteLine($"{vitamixBlender.Price}");
         }
+        //was trying to use the switch case formula before going brute force and making the invoice with no loops
 
-        public void DisplayInvoice()
+        private void DisplayInvoiceHeader()
         {
             Console.WriteLine("BIG DAVE'S VARIETY STORE");
             Console.WriteLine("");
             Console.WriteLine("INVOICE");
             Console.WriteLine("");
+        }
 
-            foreach (var item in )
-            {
-                switch (item)
-                {
-                    case "Playstation":
-                        var kitchenPrivate = (Product)item;
-                        DisplayPlaystation(kitchenPrivate);
-                        break;
-                    case "Dining Room":
-                        var diningRoomPrivate = (DiningRoom)item;
-                        DisplayDiningRoom(diningRoomPrivate);
-                        break;
-                    case "Living Room":
-                        var livingRoomPrivate = (LivingRoom)item;
-                        DisplayLivingRoom(livingRoomPrivate);
-                        break;
-                    case "Basement":
-                        var basementPrivate = (Basement)item;
-                        DisplayBasement(basementPrivate);
-                        break;
-
-                }
-
-            }
+        public void DisplayProductPricing()
+        {
+            foreach (var item in this.Products)
+            Console.WriteLine($"- {this.Name}");
+            Console.WriteLine($"  {this.Department}");
+            Console.WriteLine($"  ${this.Price}");
+            Console.WriteLine("");
         }
     }
 }

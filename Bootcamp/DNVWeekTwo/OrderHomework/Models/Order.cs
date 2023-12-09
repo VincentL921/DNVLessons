@@ -47,6 +47,14 @@ namespace OrderHomework.Models
         {
             return GetAveragePrice() - _pricePaid;
         }
+
+        //var specialPricingIndex = 1;
+        //    foreach (var pItem in this.SpecialPricingLineItems)
+        //    {
+        //        Console.WriteLine($"{specialPricingIndex}. {pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
+        //        specialPricingIndex++;
+        //    }
+
     }
 }
 

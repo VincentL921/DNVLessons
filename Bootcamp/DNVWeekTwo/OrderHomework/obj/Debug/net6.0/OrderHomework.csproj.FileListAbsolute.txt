@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\bin\Debug\net6.0\OrderHomework.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\bin\Debug\net6.0\OrderHomework.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\bin\Debug\net6.0\OrderHomework.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\bin\Debug\net6.0\OrderHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\bin\Debug\net6.0\OrderHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\refint\OrderHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\OrderHomework.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\OrderHomework\obj\Debug\net6.0\ref\OrderHomework.dll
