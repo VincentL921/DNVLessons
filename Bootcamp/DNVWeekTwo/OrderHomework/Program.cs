@@ -59,8 +59,7 @@ vitamixBlender.Price = 300.0;
 var order = new Order();
 order.Add(orderedItems);
 
-var average = order.GetTotalCost();
-
+order.DisplayInvoice();
 
 
 

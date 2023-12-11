@@ -45,15 +45,25 @@ namespace OrderHomework.Models
         }
         public double GetRemainingBalance()
         {
-            return GetAveragePrice() - _pricePaid;
+            return GetTotalPrice() - _pricePaid;
         }
+        public void DisplayInvoice()
+        {
+            var totalPrice = GetTotalPrice();
+            var averagePrice = GetAveragePrice();
 
-        //var specialPricingIndex = 1;
-        //    foreach (var pItem in this.SpecialPricingLineItems)
-        //    {
-        //        Console.WriteLine($"{specialPricingIndex}. {pItem.SpecialPricingDivision}: {pItem.SpecialtyPricingProposalPrice}");
-        //        specialPricingIndex++;
-        //    }
+            Console.WriteLine("Big Dave's Penis Peninsula");
+            Console.WriteLine($"---------------------");
+
+            foreach (var item in _productsOrdered)
+            {
+                item.Display();
+            }
+
+            Console.WriteLine($"---------------------");
+            Console.WriteLine($"Total Price: {totalPrice}");
+            Console.WriteLine($"Average Price: {averagePrice}");
+        }
 
     }
 }
