@@ -13,6 +13,7 @@ namespace OrderHomework.Models
         public string Department { get; set; }
         public double Price { get; set; }
         public double Cost { get; set; }
+        public OrderedItems OrderedItems { get; set; }
 
         public void Display()
         {
@@ -21,5 +22,6 @@ namespace OrderHomework.Models
             Console.WriteLine($"Item Price: {this.Price}");
             Console.WriteLine("");
         }
+
     }
 }

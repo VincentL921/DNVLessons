@@ -57,10 +57,18 @@ vitamixBlender.Cost = 150.0;
 vitamixBlender.Price = 300.0;
 
 var order = new Order();
+order.Add(playstationFive);
+order.Add(samsungTV);
+order.Add(adidasTracksuit);
+order.Add(nikeHoodie);
+order.Add(airForceOnes);
+order.Add(nikeDunks);
+order.Add(kitchenAidMixer);
+order.Add(vitamixBlender);
 order.Add(orderedItems);
 
+var average = order.GetAveragePrice();
 order.DisplayInvoice();
-
 
 
 
