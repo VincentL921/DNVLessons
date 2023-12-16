@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrderHomework.Models
+namespace CarDealershipHomework.Models
 {
-    public class OrderedItems
+    public class Dealership
     {
-     public void DavesPoopDeck()
-        {
-
-        }
+        private List<Car> _carsInLot = new List<Car>();
     }
 }

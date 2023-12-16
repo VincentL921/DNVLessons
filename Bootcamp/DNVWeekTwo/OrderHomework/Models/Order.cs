@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OrderHomework.Models
 {
-    internal class Order
+    public class Order
     {
         private List<Product> _productsOrdered = new List<Product>();
         private double _costAccrued = 0;
@@ -58,24 +58,13 @@ namespace OrderHomework.Models
         public double GetAveragePrice(string department)
         {
             var departmentTotals = _productsOrdered.Where(x => x.Department.Contains(department)).Sum(m => m.Price);
-            return departmentTotals / _productsOrdered.Count;
+            return GetTotalPrice(department) / _productsOrdered.Count;
+            //return departmentTotals / _productsOrdered.Count;
         }
         public void DisplayInvoice()
         {
             var totalPrice = GetTotalPrice();
             var averagePrice = GetAveragePrice();
-
-            var totalForElectronics = GetTotalPrice("Electronics");
-            var averageForDept = GetAveragePrice("Electronics");
-
-            var totalForClothing = GetTotalPrice("Clothing");
-            var averageForClothing = GetAveragePrice("Clothing");
-
-            var totalForShoes = GetTotalPrice("Shoes");
-            var averageForShoes = GetAveragePrice("Shoes");
-
-            var totalForKitchenware = GetTotalPrice("Kitchenware");
-            var averageForKitchenware = GetAveragePrice("Kitchenware");
 
             Console.WriteLine("Sailor Dave's Poop Deck");
             Console.WriteLine($"---------------------");
@@ -95,24 +84,14 @@ namespace OrderHomework.Models
             Console.WriteLine($"Deparments Selected:");
             foreach (var item in uniqueDepartments)
             {
-                Console.WriteLine($"{item}");
-                Console.WriteLine($"{totalForClothing }");
+                var departmentTotal = GetTotalPrice(item);
+                var departmentAverage = GetAveragePrice(item);
+                Console.WriteLine("");
+                Console.WriteLine($"Total for {item} Department: {departmentTotal}");
+                Console.WriteLine($"Average for {item} Department: {departmentAverage}");
             }
-            Console.WriteLine("");
-            Console.WriteLine($"Total for Electronics Department: {totalForElectronics}");
-            Console.WriteLine($"Average for Electronics Department: {totalForElectronics}");
-            Console.WriteLine("");
-            Console.WriteLine($"Total for Clothing Department: {totalForClothing}");
-            Console.WriteLine($"Average for Clothing Department: {totalForClothing}");
-            Console.WriteLine("");
-            Console.WriteLine($"Total for Shoes Department: {totalForShoes}");
-            Console.WriteLine($"Average for Shoes Department: {totalForShoes}");
-            Console.WriteLine("");
-            Console.WriteLine($"Total for Kitchenware Department: {totalForKitchenware}");
-            Console.WriteLine($"Average for Kitchenware Department: {totalForKitchenware}");
+
         }
-
-
     }
 }
 

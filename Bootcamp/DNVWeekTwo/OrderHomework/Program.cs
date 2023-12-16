@@ -16,6 +16,14 @@ var nikeDunks = new Product();
 var kitchenAidMixer = new Product();
 var vitamixBlender = new Product();
 
+var appleMacBookAir = new Product();
+
+
+appleMacBookAir.Name = "Apple MacBook Air";
+appleMacBookAir.Department = "Computers";
+appleMacBookAir.Cost = 750.0;
+appleMacBookAir.Price = 1250.0;
+
 playstationFive.Name = "Playstation 5";
 playstationFive.Department = "Electronics";
 playstationFive.Cost = 225.0;
@@ -66,6 +74,7 @@ order.Add(nikeDunks);
 order.Add(kitchenAidMixer);
 order.Add(vitamixBlender);
 order.Add(orderedItems);
+order.Add(appleMacBookAir);
 
 var average = order.GetAveragePrice();
 order.DisplayInvoice();

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "Casting\Casting.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShowHomework", "FoodShowHomework\FoodShowHomework.csproj", "{BD7FBC55-84C5-4DA0-9ACC-718E033E7AC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderHomework", "OrderHomework\OrderHomework.csproj", "{C14E6813-C798-4255-9CC5-8CAC4BFA9E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderHomework", "OrderHomework\OrderHomework.csproj", "{C14E6813-C798-4255-9CC5-8CAC4BFA9E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealershipHomework", "CarDealershipHomework\CarDealershipHomework.csproj", "{2A61699F-E4A3-4ABE-834F-D329A35F88BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C14E6813-C798-4255-9CC5-8CAC4BFA9E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14E6813-C798-4255-9CC5-8CAC4BFA9E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14E6813-C798-4255-9CC5-8CAC4BFA9E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A61699F-E4A3-4ABE-834F-D329A35F88BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A61699F-E4A3-4ABE-834F-D329A35F88BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A61699F-E4A3-4ABE-834F-D329A35F88BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A61699F-E4A3-4ABE-834F-D329A35F88BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
