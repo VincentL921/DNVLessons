@@ -187,9 +187,34 @@ mitsubishiEvo.MSRP = 49999.00;
 mitsubishiEvo.IsElectric = false;
 mitsubishiEvo.IsSold = true;
 
+var davesDealership = new Dealership();
+davesDealership.Add(mazda626);
+davesDealership.Add(porsche968);
+davesDealership.Add(saturnOutlook);
+davesDealership.Add(toyotaTundra);
+davesDealership.Add(mazdaMazda3);
+davesDealership.Add(fordFocus);
+davesDealership.Add(landRoverRangeRover);
+davesDealership.Add(lincolnMks);
+davesDealership.Add(pontiacGrandAm);
+davesDealership.Add(lexusIsf);
+davesDealership.Add(mercedesSClass);
+davesDealership.Add(audi5000S);
+davesDealership.Add(subaruBrat);
+davesDealership.Add(cadillacCatera);
+davesDealership.Add(fiat500);
+davesDealership.Add(nissan370Z);
+davesDealership.Add(nissan200SX);
+davesDealership.Add(teslaModelS);
+davesDealership.Add(teslamodelX);
+davesDealership.Add(mitsubishiEvo);
+
+var total = davesDealership.GetNumberOfCars();
+Console.WriteLine(total);
+
 
 //*Dealership-> class
-//    private variable of Cars which is a collection of Car
+//    private variable of Cars which is a collection of Car checked
 
 //    method to Add -> pass in a single car or a collection of cars -> hint: overload.
 //    * A method to get the number of cars on the lot

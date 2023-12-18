@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\bin\Debug\net6.0\CarDealershipHomework.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\bin\Debug\net6.0\CarDealershipHomework.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\bin\Debug\net6.0\CarDealershipHomework.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\bin\Debug\net6.0\CarDealershipHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\bin\Debug\net6.0\CarDealershipHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\refint\CarDealershipHomework.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\CarDealershipHomework.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\DNVWeekTwo\CarDealershipHomework\obj\Debug\net6.0\ref\CarDealershipHomework.dll
