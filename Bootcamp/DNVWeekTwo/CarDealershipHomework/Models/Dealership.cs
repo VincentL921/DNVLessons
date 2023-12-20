@@ -31,6 +31,14 @@ namespace CarDealershipHomework.Models
         {
             return _carsInDealership.Where(c => c.Make == make).Count();
         }
+        public int GetCarInventory()
+        {
+            return _carsInDealership.Count();
+        }
+        public int GetCarInventory(bool isSold)
+        {
+            return _carsInDealership.Where(c => c.IsSold != isSold).Count();
+        }
         public double GetMSRPTotal()
         {
             return _carsInDealership.Sum(c => c.MSRP);
@@ -96,6 +104,24 @@ namespace CarDealershipHomework.Models
         public int AverageCarAge(string make)
         {
             return GetCarAge(make) / GetNumberOfCars(make);
+        }                                                                                                                                                                                                                           
+        public void DisplayCarInventory()
+        {
+            var totalInventory = GetCarInventory();
+            var availableCars = _carsInDealership.Where(x => x.IsSold == false).Count();
+
+            Console.WriteLine("Big Dave's Used Cars :D");
+            Console.WriteLine("");
+            Console.WriteLine($"Current Inventory: {availableCars}");
+            Console.WriteLine("Cars For Sale:");
+            Console.WriteLine("");
+            foreach (var item in _carsInDealership)
+            {
+                item.Display();
+            }
+
+
+
         }
     }
 }
@@ -123,7 +149,7 @@ namespace CarDealershipHomework.Models
 //        overload for average age of vehicles by make.
 
 //    * create amethod to display inventory of dealrship.
-//        utilize all methods above to print out data about the daerlship
+//        utilize all methods above to print out data about the dearlship
 //            in a readable manner
 //        within this method, get the unique makes of all vehicles currently on the lot
 //            in order to loop over and utilize any methods with overloads by make.

@@ -210,7 +210,9 @@ davesDealership.Add(teslamodelX);
 davesDealership.Add(mitsubishiEvo);
 
 var total = davesDealership.GetNumberOfCars();
-Console.WriteLine(total);
+//Console.WriteLine(total);
+
+davesDealership.DisplayCarInventory();
 
 
 //*Dealership-> class

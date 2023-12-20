@@ -16,6 +16,20 @@ namespace CarDealershipHomework.Models
         public bool IsElectric { get; set; }
         public bool IsSold { get; set; }
 
+        public void Display()
+        {
+            if (this.IsSold == false)
+            {
+                Console.WriteLine($"Car: {this.Year} {this.Make} {this.Model}");
+                Console.WriteLine($"Price: ${this.MSRP}, Mileage: {this.Odometer} Miles ");
+                Console.WriteLine("");
+            }
+            else
+            {
+                
+            }
+        }
+
     }
 }
 //* Class of Car
