@@ -25,7 +25,11 @@ namespace CarDealershipHomework.Models
         }
         public int GetNumberOfCars(bool isElectric)
         {
-            return _carsInDealership.Where(c => c.IsElectric == true).Count();
+            return _carsInDealership.Where(c => c.IsElectric == isElectric).Count();
+        }
+        public int GetNumberOfCars(string make)
+        {
+            return _carsInDealership.Where(c => c.Make == make).Count();
         }
         public double GetMSRPTotal()
         {
@@ -33,11 +37,11 @@ namespace CarDealershipHomework.Models
         }
         public double GetMSRPTotal(bool isElectric)
         {
-            return _carsInDealership.Where(c => c.IsElectric == true).Sum(c => c.MSRP);
+            return _carsInDealership.Where(c => c.IsElectric == isElectric).Sum(c => c.MSRP);
         }
         public double GetMSRPTotal(string make)
         {
-            return _carsInDealership.Where(c => c.Make.Contains(make)).Sum(c => c.MSRP);
+            return _carsInDealership.Where(c => c.Make == make).Sum(c => c.MSRP);
         }
         public double GetMSRPAverage()
         {
@@ -49,7 +53,7 @@ namespace CarDealershipHomework.Models
         }
         public double GetMSRPAverage(string make)
         {
-            return GetMSRPTotal(make) / _carsInDealership.Count();
+            return GetMSRPTotal(make) / GetNumberOfCars(make);
         }
         public int GetMileageTotal()
         {
@@ -57,11 +61,11 @@ namespace CarDealershipHomework.Models
         }
         public int GetMileageTotal(bool isElectric)
         {
-            return _carsInDealership.Where(c => c.IsElectric == true).Sum(c => c.Odometer);
+            return _carsInDealership.Where(c => c.IsElectric == isElectric).Sum(c => c.Odometer);
         }
         public int GetMileageTotal(string make)
         {
-            return _carsInDealership.Where(c => c.Make.Contains(make)).Sum(c => c.Odometer);
+            return _carsInDealership.Where(c => c.Make == make).Sum(c => c.Odometer);
         }
         public int GetAverageMileage()
         {
@@ -73,10 +77,29 @@ namespace CarDealershipHomework.Models
         }
         public int GetAverageMileage(string make)
         {
-            return GetMileageTotal(make) / _carsInDealership.Count();
+            return GetMileageTotal(make) / GetNumberOfCars(make);
+        }
+        public int GetCarAge()
+        {
+            var currentYear = 2023;
+            return currentYear - _carsInDealership.Sum(c => c.Year);
+        }
+        public int GetCarAge(string make)
+        {
+            var currentYear = 2023;
+            return currentYear - _carsInDealership.Where(c => c.Make == make).Sum(c => c.Year);
+        }
+        public int AverageCarAge()
+        {
+            return GetCarAge() / _carsInDealership.Count();
+        }
+        public int AverageCarAge(string make)
+        {
+            return GetCarAge(make) / GetNumberOfCars(make);
         }
     }
 }
+
 //*Dealership-> class
 //    private variable of Cars which is a collection of Car CHECK
 
@@ -95,6 +118,7 @@ namespace CarDealershipHomework.Models
 //    * Average odometer value of all cars on the lot. CHECK
 //        overload for average odometer reading by electric vehicles. CHECK
 //        overload for average odometer reading by make CHECK
+
 //    * Average age of vehicles on the lot.
 //        overload for average age of vehicles by make.
 
