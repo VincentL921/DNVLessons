@@ -15,7 +15,7 @@ namespace CarDealershipHomework.Models
         public double MSRP { get; set; }
         public bool IsElectric { get; set; }
         public bool IsSold { get; set; }
-
+        public TestData TestData { get; set; } 
         public void Display()
         {
             if (this.IsSold == false)
