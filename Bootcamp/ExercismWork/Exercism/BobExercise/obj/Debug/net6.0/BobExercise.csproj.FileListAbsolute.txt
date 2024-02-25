@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\bin\Debug\net6.0\BobExercise.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\bin\Debug\net6.0\BobExercise.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\bin\Debug\net6.0\BobExercise.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\bin\Debug\net6.0\BobExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\bin\Debug\net6.0\BobExercise.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\refint\BobExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\BobExercise.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\BobExercise\obj\Debug\net6.0\ref\BobExercise.dll

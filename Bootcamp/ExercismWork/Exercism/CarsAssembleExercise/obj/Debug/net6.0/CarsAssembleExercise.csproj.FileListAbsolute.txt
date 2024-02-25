@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\bin\Debug\net6.0\CarsAssembleExercise.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\bin\Debug\net6.0\CarsAssembleExercise.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\bin\Debug\net6.0\CarsAssembleExercise.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\bin\Debug\net6.0\CarsAssembleExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\bin\Debug\net6.0\CarsAssembleExercise.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\refint\CarsAssembleExercise.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\CarsAssembleExercise.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\CarsAssembleExercise\obj\Debug\net6.0\ref\CarsAssembleExercise.dll

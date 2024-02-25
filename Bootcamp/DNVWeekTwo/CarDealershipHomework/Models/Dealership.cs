@@ -37,7 +37,7 @@ namespace CarDealershipHomework.Models
         }
         public int GetCarInventory(bool isSold)
         {
-            return _carsInDealership.Where(c => c.IsSold != isSold).Count();
+            return _carsInDealership.Where(c => c.IsSold == isSold).Count();
         }
         public double GetMSRPTotal()
         {
@@ -87,28 +87,31 @@ namespace CarDealershipHomework.Models
         {
             return GetMileageTotal(make) / GetNumberOfCars(make);
         }
-        public int GetCarAge()
+        public int GetCarTotalAge()
         {
             var currentYear = 2023;
-            return currentYear - _carsInDealership.Sum(c => c.Year);
+            return _carsInDealership.Sum(c => currentYear - c.Year);
         }
-        public int GetCarAge(string make)
+        public int GetCarTotalAge(string make)
         {
             var currentYear = 2023;
-            return currentYear - _carsInDealership.Where(c => c.Make == make).Sum(c => c.Year);
+            return _carsInDealership.Where(c => c.Make == make).Sum(c => currentYear - c.Year);
         }
         public int AverageCarAge()
         {
-            return GetCarAge() / _carsInDealership.Count();
+            return GetCarTotalAge() / _carsInDealership.Count();
         }
         public int AverageCarAge(string make)
         {
-            return GetCarAge(make) / GetNumberOfCars(make);
+            return GetCarTotalAge(make) / GetNumberOfCars(make);
         }                                                                                                                                                                                                                           
         public void DisplayCarInventory()
         {
             var totalInventory = GetCarInventory();
             var availableCars = _carsInDealership.Where(x => x.IsSold == false).Count();
+
+            var uniqueCarMakes = _carsInDealership.Select(x => x.Make).Distinct().ToList();
+            var uniqueCarCount = uniqueCarMakes.Count();
 
             Console.WriteLine("Big Dave's Used Cars :D");
             Console.WriteLine("");
@@ -119,7 +122,12 @@ namespace CarDealershipHomework.Models
             {
                 item.Display();
             }
-
+            Console.WriteLine("");
+            Console.WriteLine($"Number of Makes in Lot: {uniqueCarCount}");
+            foreach (var cItem in uniqueCarMakes)
+            {
+                Console.WriteLine($"{cItem}");
+            }
         }
     }
 }

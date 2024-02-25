@@ -4,36 +4,19 @@ using System.IO.IsolatedStorage;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 
-var carsInLot = new TestData();
+var data = new TestData();
 
-carsInLot.Build();
+var carsInlot = data.Build();
 
-var davesDealership = new Dealership();
-davesDealership.Add(mazda626);
-davesDealership.Add(porsche968);
-davesDealership.Add(saturnOutlook);
-davesDealership.Add(toyotaTundra);
-davesDealership.Add(mazdaMazda3);
-davesDealership.Add(fordFocus);
-davesDealership.Add(landRoverRangeRover);
-davesDealership.Add(lincolnMks);
-davesDealership.Add(pontiacGrandAm);
-davesDealership.Add(lexusIsf);
-davesDealership.Add(mercedesSClass);
-davesDealership.Add(audi5000S);
-davesDealership.Add(subaruBrat);
-davesDealership.Add(cadillacCatera);
-davesDealership.Add(fiat500);
-davesDealership.Add(nissan370Z);
-davesDealership.Add(nissan200SX);
-davesDealership.Add(teslaModelS);
-davesDealership.Add(teslamodelX);
-davesDealership.Add(mitsubishiEvo);
+var bigDavesDealership = new Dealership();
+bigDavesDealership.Add(carsInlot);
 
-var total = davesDealership.GetNumberOfCars();
-//Console.WriteLine(total);
+var total = bigDavesDealership.GetNumberOfCars();
 
-davesDealership.DisplayCarInventory();
+bigDavesDealership.DisplayCarInventory();
+
+
+
 
 
 //*Dealership-> class

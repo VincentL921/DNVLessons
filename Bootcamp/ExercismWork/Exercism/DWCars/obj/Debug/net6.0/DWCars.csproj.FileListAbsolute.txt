@@ -1,0 +1,14 @@
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\bin\Debug\net6.0\DWCars.exe
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\bin\Debug\net6.0\DWCars.deps.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\bin\Debug\net6.0\DWCars.runtimeconfig.json
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\bin\Debug\net6.0\DWCars.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\bin\Debug\net6.0\DWCars.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.AssemblyInfoInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.AssemblyInfo.cs
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.csproj.CoreCompileInputs.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\refint\DWCars.dll
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.pdb
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\DWCars.genruntimeconfig.cache
+C:\Users\Vince\source\repos\DNVLessons\Bootcamp\ExercismWork\Exercism\DWCars\obj\Debug\net6.0\ref\DWCars.dll

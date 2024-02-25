@@ -8,7 +8,7 @@ namespace CarDealershipHomework.Models
 {
     public class TestData
     {
-        public void Build()
+        public List <Car> Build()
         {
             var mazda626 = new Car();
             var porsche968 = new Car();
@@ -191,6 +191,29 @@ namespace CarDealershipHomework.Models
             mitsubishiEvo.IsElectric = false;
             mitsubishiEvo.IsSold = true;
 
+            var allCars = new List<Car>();
+            allCars.Add(mazda626);
+            allCars.Add(porsche968);
+            allCars.Add(saturnOutlook);
+            allCars.Add(toyotaTundra);
+            allCars.Add(mazdaMazda3);
+            allCars.Add(fordFocus);
+            allCars.Add(landRoverRangeRover);
+            allCars.Add(lincolnMks);
+            allCars.Add(pontiacGrandAm);
+            allCars.Add(lexusIsf);
+            allCars.Add(mercedesSClass);
+            allCars.Add(audi5000S);
+            allCars.Add(subaruBrat);
+            allCars.Add(cadillacCatera);
+            allCars.Add(fiat500);
+            allCars.Add(nissan370Z);
+            allCars.Add(nissan200SX);
+            allCars.Add(teslaModelS);
+            allCars.Add(teslamodelX);
+            allCars.Add(mitsubishiEvo);
+
+            return allCars;
         }
     }
 }
